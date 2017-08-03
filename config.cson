@@ -1,0 +1,41 @@
+"*":
+  aligner: {}
+  "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
+  "bracket-matcher":
+    autocompleteBrackets: false
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "nucleus-dark-ui"
+      "gruvbox-plus-syntax"
+    ]
+  editor:
+    fontFamily: "consolas"
+    fontSize: 12
+    preferredLineLength: 800
+    softWrap: false
+    softWrapAtPreferredLineLength: false
+    tabLength: 4
+  "exception-reporting":
+    userId: "5c72fb9d-5608-4a40-9ab2-4b72f9423a6f"
+  "gruvbox-plus-syntax":
+    contrast: "Soft"
+  "local-history":
+    autoPurge: true
+    fileSizeLimit: 100000000000000000
+  "tabletopsimulator-lua":
+    autocomplete:
+      excludeLowerPriority: false
+      parameterToDisplay: "both"
+    hacks:
+      incrementals: "spaced"
+    loadSave:
+      convertUnicodeCharacters: true
+    style:
+      guidPostfix: "_guid"
+  welcome:
+    showOnStartup: false
+".coffee.source":
+  editor:
+    tabLength: 2
