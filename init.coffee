@@ -17,7 +17,6 @@ atom.commands.add 'atom-text-editor', 'placeRuler': (event) ->
   atom.config.set('editor.preferredLineLength', _position.column)
   event.abortKeyBinding()
 
-
 atom.commands.add 'atom-text-editor', 'hideRuler': (event) ->
   return unless _editor = atom.workspace.getActiveTextEditor()
   atom.config.set('editor.preferredLineLength', 800)
