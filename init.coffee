@@ -22,3 +22,6 @@ atom.commands.add 'atom-text-editor', 'hideRuler': (event) ->
   return unless _editor = atom.workspace.getActiveTextEditor()
   atom.config.set('editor.preferredLineLength', 800)
   event.abortKeyBinding()
+
+atom.getCurrentWindow().on 'blur', ->
+  atom.config.set('editor.preferredLineLength', 800)
