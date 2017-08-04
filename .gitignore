@@ -6,3 +6,4 @@ storage
 .apm
 .node-gyp
 .npm
+.DS_Store
