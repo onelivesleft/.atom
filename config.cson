@@ -1,5 +1,8 @@
 "*":
   aligner: {}
+  "atom-fuzzy-grep":
+    detectGitProjectAndUseGitGrep: false
+    preserveLastSearch: true
   "autocomplete-plus":
     backspaceTriggersAutocomplete: true
   "bracket-matcher":

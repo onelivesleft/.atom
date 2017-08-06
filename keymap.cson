@@ -30,18 +30,16 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
-'.platform-darwin atom-text-editor':
-  'ctrl-shift-L': 'tabletopsimulator-lua:getObjects'
-  'ctrl-shift-S': 'tabletopsimulator-lua:saveAndPlay'
-
-'.platform-darwin atom-text-editor:not([mini])':
-    'alt': 'placeRuler'
-    '^alt': 'hideRuler'
 
 'atom-text-editor':
   'ctrl-shift-s': 'tabletopsimulator-lua:saveAndPlay'
   'ctrl-shift-l': 'tabletopsimulator-lua:getObjects'
+  'ctrl-alt-f2':  'bookmarks:view-all'
+  'ctrl-f2':      'bookmarks:toggle-bookmark'
 
 'atom-text-editor:not([mini])':
     'alt': 'placeRuler'
     '^alt': 'hideRuler'
+
+'atom-workspace':
+  'ctrl-alt-f': 'fuzzy-grep:toggle'
