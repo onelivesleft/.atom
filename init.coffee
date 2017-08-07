@@ -15,6 +15,9 @@ atom.commands.add 'atom-text-editor', 'placeRuler': (event) ->
   return unless _editor = atom.workspace.getActiveTextEditor()
   _position = _editor.getCursorScreenPosition()
   atom.config.set('editor.preferredLineLength', _position.column)
+  f = () ->
+    atom.config.set('editor.preferredLineLength', 800)
+  setTimeout f, 1000
   event.abortKeyBinding()
 
 atom.commands.add 'atom-text-editor', 'hideRuler': (event) ->

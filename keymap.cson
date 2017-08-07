@@ -39,7 +39,7 @@
 
 'atom-text-editor:not([mini])':
     'alt': 'placeRuler'
-    '^alt': 'hideRuler'
+    #'^alt': 'hideRuler'
 
 'atom-workspace':
   'ctrl-alt-f': 'fuzzy-grep:toggle'
