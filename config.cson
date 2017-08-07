@@ -15,7 +15,7 @@
     ]
   editor:
     fontFamily: "consolas"
-    fontSize: 12
+    fontSize: 13
     preferredLineLength: 800
     softWrap: false
     softWrapAtPreferredLineLength: false
@@ -31,6 +31,8 @@
     autocomplete:
       excludeLowerPriority: false
       parameterToDisplay: "both"
+    editor:
+      showFunctionName: true
     hacks:
       incrementals: "spaced"
     loadSave:
