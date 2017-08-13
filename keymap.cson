@@ -37,10 +37,15 @@
   'ctrl-alt-f2':  'bookmarks:view-all'
   'ctrl-f2':      'bookmarks:toggle-bookmark'
   'ctrl-shift-m': 'bracket-matcher:select-inside-brackets'
+  'ctrl-w':       'tabletopsimulator-lua:jumpToFunction'
+  'ctrl-W':       'editor:select-word'
+  'ctrl-shift-g': 'tabletopsimulator-lua:jumpToFunction'
 
 'atom-text-editor:not([mini])':
     'alt': 'placeRuler'
     #'^alt': 'hideRuler'
 
 'atom-workspace':
-  'ctrl-alt-f': 'fuzzy-grep:toggle'
+  'ctrl-alt-f':   'fuzzy-grep:toggle'
+  'ctrl-b':       'cursor-history:prev-within-editor'
+  'ctrl-shift-b': 'cursor-history:next-within-editor'

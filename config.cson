@@ -31,8 +31,7 @@
     autocomplete:
       excludeLowerPriority: false
       parameterToDisplay: "both"
-    editor:
-      showFunctionName: true
+    editor: {}
     hacks:
       incrementals: "spaced"
     loadSave:
