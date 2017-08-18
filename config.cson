@@ -31,15 +31,25 @@
     autocomplete:
       excludeLowerPriority: false
       parameterToDisplay: "both"
-    editor: {}
+    editor:
+      showFunctionName: true
     hacks:
       incrementals: "spaced"
     loadSave:
       convertUnicodeCharacters: true
+      includeOtherFiles: true
     style:
       guidPostfix: "_guid"
   welcome:
     showOnStartup: false
+  wordcount:
+    goal: 100
+    hidechars: true
 ".coffee.source":
   editor:
     tabLength: 2
+".plain.text":
+  editor:
+    preferredLineLength: 80
+    softWrap: true
+    softWrapAtPreferredLineLength: true
