@@ -8,6 +8,9 @@
   "bracket-matcher":
     autocompleteBrackets: false
   core:
+    disabledPackages: [
+      "pigments"
+    ]
     telemetryConsent: "no"
     themes: [
       "nucleus-dark-ui"
@@ -27,6 +30,8 @@
   "local-history":
     autoPurge: true
     fileSizeLimit: 100000000000000000
+  pigments:
+    markerType: "native-square-dot"
   "tabletopsimulator-lua":
     autocomplete:
       excludeLowerPriority: false
@@ -38,6 +43,7 @@
     loadSave:
       convertUnicodeCharacters: true
       includeOtherFiles: true
+      openOtherFiles: true
     style:
       guidPostfix: "_guid"
   welcome:

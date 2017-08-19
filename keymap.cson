@@ -32,14 +32,16 @@
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
 
 'atom-text-editor':
-  'ctrl-shift-s': 'tabletopsimulator-lua:saveAndPlay'
-  'ctrl-shift-l': 'tabletopsimulator-lua:getObjects'
-  'ctrl-alt-f2':  'bookmarks:view-all'
-  'ctrl-f2':      'bookmarks:toggle-bookmark'
-  'ctrl-shift-m': 'bracket-matcher:select-inside-brackets'
-  'ctrl-w':       'tabletopsimulator-lua:jumpToFunction'
-  'ctrl-W':       'editor:select-word'
-  'ctrl-shift-g': 'tabletopsimulator-lua:jumpToFunction'
+  'ctrl-shift-s':     'tabletopsimulator-lua:saveAndPlay'
+  'ctrl-shift-l':     'tabletopsimulator-lua:getObjects'
+  'ctrl-alt-f2':      'bookmarks:view-all'
+  'ctrl-f2':          'bookmarks:toggle-bookmark'
+  'ctrl-shift-m':     'bracket-matcher:select-inside-brackets'
+  'ctrl-w':           'tabletopsimulator-lua:jumpToFunction'
+  'ctrl-W':           'editor:select-word'
+  'ctrl-shift-g':     'tabletopsimulator-lua:jumpToFunction'
+  'ctrl-shift-alt-p': 'showScope'
+  'ctrl-shift-alt-g': 'go-to-line:toggle'
 
 'atom-text-editor:not([mini])':
     'alt': 'placeRuler'
