@@ -11,6 +11,16 @@
     disabledPackages: [
       "pigments"
     ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      ".gitignore"
+    ]
     telemetryConsent: "no"
     themes: [
       "nucleus-dark-ui"
@@ -46,6 +56,8 @@
       openOtherFiles: true
     style:
       guidPostfix: "_guid"
+  "tree-view":
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
   wordcount:

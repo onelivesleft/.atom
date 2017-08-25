@@ -39,7 +39,6 @@
   'ctrl-shift-m':     'bracket-matcher:select-inside-brackets'
   'ctrl-w':           'tabletopsimulator-lua:jumpToFunction'
   'ctrl-W':           'editor:select-word'
-  'ctrl-shift-g':     'tabletopsimulator-lua:jumpToFunction'
   'ctrl-shift-alt-p': 'showScope'
   'ctrl-shift-alt-g': 'go-to-line:toggle'
 
