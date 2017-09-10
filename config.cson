@@ -21,6 +21,9 @@
       "desktop.ini"
       ".gitignore"
     ]
+    packagesWithKeymapsDisabled: [
+      "markdown-preview"
+    ]
     telemetryConsent: "no"
     themes: [
       "nucleus-dark-ui"
@@ -63,11 +66,21 @@
   wordcount:
     goal: 100
     hidechars: true
+".basic.html.text":
+  editor:
+    preferredLineLength: 200
+    softWrap: true
+    softWrapAtPreferredLineLength: true
 ".coffee.source":
   editor:
     tabLength: 2
+".gfm.source":
+  editor:
+    preferredLineLength: 120
+    softWrap: true
+    softWrapAtPreferredLineLength: true
 ".plain.text":
   editor:
-    preferredLineLength: 80
+    preferredLineLength: 120
     softWrap: true
     softWrapAtPreferredLineLength: true

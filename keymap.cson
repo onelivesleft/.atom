@@ -50,3 +50,6 @@
   'ctrl-alt-f':   'fuzzy-grep:toggle'
   'ctrl-b':       'cursor-history:prev-within-editor'
   'ctrl-shift-b': 'cursor-history:next-within-editor'
+
+'atom-workspace, atom-workspace atom-text-editor':
+  'ctrl-shift-alt-M': 'markdown-preview:toggle'
