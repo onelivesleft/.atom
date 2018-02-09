@@ -41,6 +41,11 @@
   'ctrl-W':           'editor:select-word'
   'ctrl-shift-alt-p': 'showScope'
   'ctrl-shift-alt-g': 'go-to-line:toggle'
+  'alt-delete':       'editor:delete-line'
+  'ctrl-backspace':   'editor:delete-to-beginning-of-line'
+  'ctrl-delete':      'editor:delete-to-end-of-line'
+
+
 
 'atom-text-editor:not([mini])':
     'alt': 'placeRuler'
